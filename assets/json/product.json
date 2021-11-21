@@ -1,0 +1,36 @@
+{
+    "products":[{
+        "name":"Sản Phẩm 1",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 2",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 3",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 4",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 5",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 6",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 7",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    },{
+        "name":"Sản Phẩm 8",
+        "des":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla aliquet. Est ante in nibh mauris cursus mattis. Leo in vitae turpis massa sed elementum tempus egestas sed. Consectetur libero id faucibus nisl tincidunt eget nullam. Mauris commodo quis imperdiet massa tincidunt. Proin libero nunc consequat interdum varius sit. Amet consectetur adipiscing elit ut aliquam purus. Sed elementum tempus egestas sed sed risus. Mauris pharetra et ultrices neque. Lobortis scelerisque fermentum dui faucibus. Feugiat sed lectus vestibulum mattis.",
+        "img":"../img/prdimg/Theatre-paly.jpg"
+    }
+    ]
+}

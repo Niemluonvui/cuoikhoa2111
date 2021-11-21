@@ -1,0 +1,177 @@
+@import "variables";
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    position: relative;
+}
+//flex box
+.flex{
+    &-se-ct{
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+    }
+    &-sb-ct{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    &-sa-ct{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+    &-fs-ct{
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+    }
+    &-fe-ct{
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+    }
+    &-ct-no{
+        display: flex;
+        justify-content: center;
+    }
+    &-ct{
+        align-items: center;
+        display: flex;
+    }
+    &-ct-ct{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    &-cl-ct-ct{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    &-cl-se-ct{
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    &-cl-se-fe{
+        justify-content: space-evenly;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+    }
+    &-cl-se-fs{
+        justify-content: space-evenly;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+//wave background
+.backgr{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background: url(../img/wave.png);
+        background-size: 1000px 200px;
+    }
+    .wave1{
+        animation: waveAnimation 30s linear infinite;
+        z-index: 4;
+        opacity: 1;
+        animation-delay: 0s;
+    }
+    .wave3{
+        animation: waveAnimation 20s ease-in-out infinite;
+        z-index: 3;
+        opacity: 0.75;
+        animation-delay: -7.5s;
+        bottom: 10px;
+    }
+    .wave2{
+        animation: waveAnimation2 10s linear infinite;
+        z-index: 2;
+        opacity: 0.5;
+        animation-delay: -5s;
+    }
+}
+//waveAnimation
+@keyframes waveAnimation{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes waveAnimation2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+//changeColor
+@keyframes changeColor{
+    0%{
+        color: red;
+    }
+    25%{
+        color: cyan;
+    }
+    50%{
+        color: $yellower;
+    }
+    75%{
+        color: $mint;
+    }
+    100%{
+        color: red;
+    }
+}
+// select
+.selector {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @supports (display: -webkit-box) {
+    .selector {
+      /* autoprefixer: off */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      white-space: normal;
+    }
+  }

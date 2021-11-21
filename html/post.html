@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- tab display -->
+    <title>Cộng đồng</title>
+    <link rel="shortcut icon" href="../assets/img/logo/cubes.png" type="image/x-icon">
+
+</head>
+<body onload="loginAppear(); getArrPost(5); ">
+    <!-- navigation -->
+    <header class="flex-sb-ct">
+        <!-- left -->
+        <section class="sec-left flex-ct">
+            <div class="nav__settingIcon flex-ct">
+                <div class="img"></div>
+            </div>
+            <ul class="nav__list flex-se-ct">
+                <li class="nav__elements"><a href="homepage.html">Trang Chính</a></li>
+                <li class="nav__elements"><a href="post.html">Cộng Đồng</a></li>
+                <li class="nav__elements"><a href="shop.html">Khóa Học</a></li>
+                <li class="nav__elements"><a href="library.html">Thư Viện Tài Liệu</a></li>
+            </ul>
+        </section>
+
+        <!-- right -->
+        <section class="sec-right flex-fe-ct">
+            <div class="nav__signin flex-se-ct" onclick="goTo(1)">Sign In</div>
+            <div class="nav__signup flex-se-ct" onclick="goTo(0)">Sign Up</div>
+            <div class="nav__signed">
+                <div>
+                    <p onclick="signOut()">Sign Out</p>
+                    <img src="../assets/img/logo/madam.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- contents -->
+    <div class="backgr info-bgr">
+        <div class="info-header flex-ct-ct">
+            CỘNG ĐỒNG
+        </div>
+        <div class="info-layout flex-ct-ct">
+            <div class="info-layout-left">
+                <div class="posts-header flex-sb-ct">
+                    <div class="posts-header-left">
+                        Bài Viết
+                    </div>
+                    <div class="posts-header-right">
+                        <select name="changePosition" id="positions" onchange="getArrPost()">
+                            <option value=1>Mới nhất</option>
+                            <option value=2>Trong tháng này</option>
+                            <option value=0>Cũ nhất</option>
+                        </select>
+                    </div>
+                </div>
+                <span class="posts-gohere"></span>
+            </div>
+            <div class="info-layout-right flex-cl-ct-ct">
+                <input type="text" placeholder="Tìm kiếm bài viết">
+                <hr>
+                <div class="info-layout-right-cate flex-cl-se-fs">
+                    <div class="cates">Category 1</div>
+                    <div class="cates">Category 1</div>
+                    <div class="cates">Category 1</div>
+                    <div class="cates">Category 1</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer info-ft">
+        <p class="ft-p flex-ct-ct">Created by N</p>
+    </footer>
+</body>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/post.js"></script>
+</html>

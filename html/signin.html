@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- tab display -->
+    <title>Đăng Nhập & Đăng Kí</title>
+    <link rel="shortcut icon" href="../assets/img/logo/cubes.png" type="image/x-icon">
+
+</head>
+<body onload="changeTo(localStorage.getItem('IorU'))">
+    <section class="log__page flex-ct-ct">
+        <div class="log__area flex-ct-ct">
+            <div class="log__in flex-cl-ct-ct">
+                <h1>Hình như tôi biết bạn!</h1>
+                <span class="type-sec">
+                    <p>Tên đăng nhập</p>
+                    <input type="text" id="InUser">
+                    <p>Mật khẩu</p>
+                    <input type="password" id="InPass">
+                </span>
+                <span class="butt-sec">
+                    <div class="button-left" onclick="signIn()">Đăng nhập</div>
+                    <p id="changeToSignUp" onclick="changeTo(0)">Bạn chưa gặp tôi bao giờ à? &#8594;</p>
+                </span>
+            </div>
+            <div class="log__up flex-cl-ct-ct">
+                <h1>Hình như tôi chưa biết bạn!</h1>
+                <span class="type-sec">
+                    <span class="right">
+                        <p>Email của bạn</p>
+                    </span>
+                    <input type="text" id="UpMail">
+                    <span class="right">
+                        <p>Tên đăng nhập</p>
+                    </span>
+                    <input type="text" id="UpUser">
+                    <span class="right">
+                        <p>Mật khẩu</p>
+                    </span>
+                    <input type="text" id="UpPass">
+                </span>
+                <span class="butt-sec butt-sec-right">
+                    <p id="changeToSignUp" onclick="changeTo(1)">&#8592; Bạn gặp tôi rồi à?</p>
+                    <a href="" class="button-right">Đăng kí ngay!</a>
+                </span>
+            </div>
+            <div class="log__curtain">
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/LSsign.js"></script>
+</html>
