@@ -54,6 +54,6 @@ function sendEmail(title,text) {
         Subject : title,
         Body : text
     }).then(
-      message => alert(message)
+      message => alert('File đã được gửi về mail của bạn!')
     );
 }
